@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Ocultar la barra de scroll en WebKit (Chrome, Safari, WebView) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Ocultar la barra de scroll en Firefox e IE */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
