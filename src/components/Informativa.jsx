@@ -16,6 +16,9 @@ function Informativa() {
         <div>
           <p className="text-sm text-gray-500">Desarrollador</p>
           <p className="font-bold text-gray-800">Gabriel Pino</p>
+          <a href='https://github.com/DevGabrx/APP_Countries' target='_blank' className="text-blue-600 hover:text-blue-800 underline">
+            Aquí encuentras el repositorio de GitHub
+          </a>
         </div>
       </div>
 

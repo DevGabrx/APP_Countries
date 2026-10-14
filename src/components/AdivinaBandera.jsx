@@ -63,7 +63,7 @@ function AdivinaBandera() {
             setScore(score + 1);
             setFeedback({ type: 'success', text: '¡Correcto! 🎉' });
         } else {
-            setScore(0); // Reinicia el puntaje al fallar (puedes cambiar esta lógica)
+            setScore(0); // Reinicia el puntaje al fallar 
             setFeedback({ type: 'error', text: `Incorrecto. Era ${question.correctAnswer} 😢` });
         }
 
@@ -99,7 +99,7 @@ function AdivinaBandera() {
       <div className="w-full flex justify-between items-center mb-6 bg-white p-4 rounded-xl shadow-sm">
         <h2 className="text-xl font-bold text-gray-800">Adivina la Bandera</h2>
         <div className="bg-blue-100 text-blue-700 px-4 py-1 rounded-full font-bold">
-          Racha: {score}
+          Racha: {score} 
         </div>
       </div>
 
@@ -125,6 +125,7 @@ function AdivinaBandera() {
                     : 'bg-white text-gray-800 border-gray-200 hover:bg-blue-50 active:bg-blue-100 shadow-sm'
                 }`}
               >
+
                 {option}
               </button>
             ))}

@@ -12,7 +12,7 @@ function SplashScreen({ children }) {
   if (showSplash) {
     return (
       <div className="flex flex-col items-center justify-center h-screen bg-blue-600 text-white">
-        <h1 className="text-4xl font-bold mb-4">🌍 Explorador Global</h1>
+        <h1 className="text-4xl font-bold mb-4">🌍 Explorador de Paises</h1>
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-white"></div>
       </div>
     );
