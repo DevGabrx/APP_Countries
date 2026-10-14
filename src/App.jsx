@@ -1,5 +1,5 @@
-// src/App.jsx
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+
+import {HashRouter as BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import { Home, Heart, Globe, Gamepad2, Info } from 'lucide-react';
 import SplashScreen from './components/SplashScreen';
 import HomeView from './components/HomeView';
